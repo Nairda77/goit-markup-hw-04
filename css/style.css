@@ -189,7 +189,6 @@ a {
 .font-hero-up{
     background-color: #2E2F42;
     width: 1440px;
-    top: 72px;
     height: 600px;
     
 }
@@ -201,7 +200,7 @@ a {
     flex-wrap: wrap;
     height: 600px;
     flex-direction: column;
-    background-image:  url(./images/people-office1.jpg);
+    background: linear-gradient(#2e2f42, #2e2f42), url('./images/people-office1.jpg');
 
 }
 
