@@ -191,6 +191,7 @@ a {
     width: 1440px;
     top: 72px;
     height: 600px;
+    
 }
 
 .container-hero{
@@ -200,6 +201,7 @@ a {
     flex-wrap: wrap;
     height: 600px;
     flex-direction: column;
+    background-image:  url(./images/people-office1.jpg);
 
 }
 
@@ -338,11 +340,6 @@ a {
     width: 1440px;
 }
 
-.div-h2,
-.div-list-team{
-
-}
-
 .container-team{
     display: flex;
     flex-wrap: wrap;
@@ -467,17 +464,21 @@ a {
     height: 24px;
 }
 
-.sub-hero-img{
+.icon-class{
     background-color: #F4F4FD;
-    width: 64px;
-    height: 64px;
-    padding: 24px 100px;
-    display: flex;
-    justify-content: center;
     gap: 24px;
+    width: 264px;
+    height: 112px;
+    
 }
 
-.sh-img-list{
+.icon-symbol{
+    width: 64px;
+    height: 64px;
+}
+
+.sh-svg-list{
     display: block;
 }
 
+  
